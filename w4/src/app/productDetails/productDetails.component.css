@@ -1,0 +1,22 @@
+.container{
+    margin:1%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+}
+.container-slider{
+    padding:3%
+}
+.box{
+    flex-basis: 20% and auto;
+    padding:10px;
+    list-style: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(27, 67, 119);
+    
+    color: lavenderblush;
+    
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+    <header>
+        <div class = "facebook-header">
+            <h1 class = "facebook-h1">facebook</h1>
+        </div>
+        <div class = "form-header">
+            <form class = "inputs-header" method="post">
+                <label class = "header-label1" for="fphone">Email or phone</label>
+                <input type="text" id = "fphone" name = "phone">
+                <label class = "header-label2" for="fpassword">Password</label>
+                <input type="password" name="password" id="fpassword">
+                <input type="submit" name="log-in" id="log-in" value = "Log in">
+            </form>
+            <a class = "forget" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Forgetten account?</a>    
+        </div>
+    </header>
+    <main>
+        <div class = "left-main">
+            <p class = "p">Facebook helps you connect and share with the people in your life.</p>
+            <img class = "back-left" src="src/OBaVg52wtTZ.png" alt="connection">
+        </div>
+        <div class = "right-main">
+            <h1 class = "right-h1">Create an account</h1>
+            <p class = "right-p">It's quick and easy.</p>
+            <form method = "POST">
+                <input class = "first-name" type="text" placeholder="First name" required>
+                <input class = "second-name" type="text" placeholder="Surname" required>
+                <input class = "mobile" type="text" placeholder="Mobile number or email address" required>
+                <input class = "password" type="password" placeholder="New password" required>
+            </form>
+            <div class = "Birthday">Birthday</div>
+            <form method = "POST">
+                <select name="day" id="day" title="Day">
+                    <option value="Day">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <select name="month" id="month" title = "Month">
+                    <option value="Month">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="Novermber">Novermber</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="year" id="year" title="Year">
+                    <option value="Year">Year</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="...">...</option>
+                    <option value="2000">2000</option>
+                    <option value="...">...</option>
+                    <option value="1950">1950</option>
+                </select>
+            </form>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class = "Gender">Gender</div>
+            <form method="POST">
+                <input type="radio" id = "radio-button-male" name = "gender" value="Male"   >
+                <label class = "label"for="radio-button-male">Male</label>
+                <input type="radio" name="gender" id="radio-button-female" value="Female">
+                <label class = "label" for="radio-button-female">Female</label>
+                <input type="radio" name="gender" id="custom" value="Custom">
+                <label class = "label" for="custom">Custom</label>
+            </form>
+            <p class = "p2">
+                By clicking Sign Up, you agree to our 
+                <a href="https://www.facebook.com/legal/terms/update" target="_blank">Terms, </a>
+                <a href="https://www.facebook.com/about/privacy/update" target="_blank">Data Policy</a> and 
+                <a href="https://www.facebook.com/policies/cookies/" target="_blank">Cookie Policy.</a> You may receive
+                SMS notifications from us and can opt out at any time.
+            </p>
+            <form method="POST">
+                <input type="submit" name="sign-up" id="sign-up" value="Sign Up">
+            </form>
+            <span class = "end">
+                <a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">Create a Page</a>
+                for a celebrity, band or business.
+            </span>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <ul class = "first-ul">
+                <li>
+                    <a href="https://www.facebook.com/">English (UK)</a>
+                </li>
+                <li>
+                    <a href="https://ru-ru.facebook.com/">Русский</a>
+                </li>
+                <li>
+                    <a href="https://tr-tr.facebook.com/">Türkçe</a>
+                </li>
+                <li>
+                    <a href="https://id-id.facebook.com/">Bahasa Indonesia</a>
+                </li>
+            </ul>
+        </div>
+        <div class = "division">
+        </div>
+        <div>
+            <ul class="second-ul">
+                <li>
+                    <a href="https://en-gb.facebook.com/r.php">Sign up</a>
+                </li>
+                <li>
+                    <a href="https://en-gb.facebook.com/login/">Log in</a>
+                </li>
+                <li>
+                    <a href="https://www.messenger.com/">Messenger</a>
+                </li>
+                <li>
+                    <a href="https://en-gb.facebook.com/lite/">Facebook lite</a>
+                </li>
+                <li>
+                    <a href="https://developers.facebook.com/?ref=pf">developers</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class = "the-end">Facebook © 2020</p>
+        </div>
+    </footer>
+</body>
+</html>

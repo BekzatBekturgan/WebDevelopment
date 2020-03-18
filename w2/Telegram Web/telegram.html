@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>
+    <title>Telegram Web</title>
+    <style>
+        body{
+            background-color: #dfe5ec;
+            margin: 0;
+            overflow: hidden;
+        }
+        .background-color-blue{
+            background-color: #5682a3;
+            height: 226px;
+        }
+        .login-page{
+            margin: -131px auto 60px;
+            border: 0;
+            padding: 0;
+            max-width: 404px;
+            height: 430px;
+            background-color: white;
+            box-sizing: border-box;
+        }
+        .top-login-page{
+            background-color: #5682a3;
+            height: 75px;
+            display: block;
+        }
+        .login-form{
+            height: 360px;
+        }
+        .in-login{
+            padding: 44px 65px;
+        }
+        .p1{
+            color: #999;
+            font-size: 13px;
+            line-height: 160%;
+            margin: 15px 0 30px;
+        }
+        .country{
+            color: #999;
+            font-size: 13px;
+            display: block;
+            font-weight: 400px;
+        }
+        #country{
+            border: 1px solid white;
+            border-bottom: 1px solid #999;
+            width: 100%;
+            margin: 5px 0 10px;
+        }
+        .inputp{
+            display: inline-block;
+            width: 200px;
+            border: 1px solid white;
+            border-bottom: 1px solid #999;
+        }
+        .inputc{
+            color: #000;
+            display: inline-block;
+            font-size: 13px;
+            padding: 3px 0;
+            width: 45px;
+            border: 1px solid white;
+            border-bottom: 1px solid #999;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .label1{
+            width: 40px;
+            display: inline-block;
+        }
+        .label3{
+            display: inline-block;
+            position: relative;
+            margin-left: 20px;
+            top: 2px;
+        }
+        .labelc{
+            color: #999;
+            font-size: 13px;
+            display: block;
+            font-weight: 400;
+            margin: 10px 0 5px;
+            margin-right: 10px;
+        }
+        .bottom-login-page{
+            background-color: #dfe5ec;
+            height: 42px;
+        }
+        .introduction{
+            color: #84a2bc;
+            text-align: center;
+            font-size: 13px;
+            margin-top: 25px;
+            line-height: 16px;
+        }
+        .link-learn-more{
+            color: #84a2bc;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+        .logo-top-page{
+            line-height: 30px;
+            padding: 23px 15px 22px;
+            display: inline-block;
+        }
+        .icon-top-page{
+            width: 30px;
+            height: 30px;
+            margin-right: 18px;
+            background-image: url(https://web.telegram.org/img/icons/General.png);
+            display: inline-block;
+            background-position: -5px -10px;
+            background-repeat: no-repeat;
+            vertical-align: top;
+        }
+        .icon-top-page-title{
+            width: 62px;
+            height: 14px;
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(https://web.telegram.org/img/Telegram.svg);
+            margin-top: 1px;
+            background-position: 0 0;
+            line-height: 30px;
+        }
+        .next-top-login-page{
+            color: white;
+            padding: 27px 15px 28px;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 20px;
+            float: right;
+        }
+        .text-next-top-login-page{
+            text-decoration: none;
+            font-weight: 700;
+            font: 13px/18px Tahoma, sans-serif, Arial, Helvetica;
+        }
+        .icon-arrow-top-login-page{
+            width: 7px;
+            height: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 12px;
+            margin-top: -1px;
+            background-image: url(https://web.telegram.org/img/icons/General.png);
+            background-position: -18px -50px;
+        }
+    </style>
+</head>
+<html>
+    <div class = "background-color-blue"></div>
+    <div class = "login-page">
+        <div class = "top-login-page">
+            <a class = "logo-top-page" href="https://web.telegram.org/" targer = "_blank">
+                <b class = "icon-top-page"></b>
+                <i class = "icon-top-page-title"></i>
+            </a>
+            <a class = "next-top-login-page" href="https://web.telegram.org/">
+                <span class = "text-next-top-login-page">Next</span>
+                <i class = "icon-arrow-top-login-page"></i>
+            </a>
+        </div>
+        <div class = "login-form">
+            <div class = "in-login">
+                <h3>Sign in</h3>
+                <p class = "p1">Please choose your country and enter your full phone number.</p>
+                <form method="POST">
+                    <label class = "country" for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="America">America</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Brazil">Brazil</option>
+                    </select>
+                    <div class = "label1">
+                        <div class = "label2">
+                            <label class = "labelc" for="fcode">Code</label>
+                            <input class = "inputc" type="text" name="code" id="fcode" value="+7 7">
+                        </div>
+                    </div>
+                    <div class = "label3">
+                        <input class = "inputp" type="text" name="phone-number" id="phone-number" placeholder="Phone number">
+                    </div>
+            </form>
+            </div>
+            
+        </div>
+        <div class = "bottom-login-page">
+            <p class = "introduction">Welcome to the official Telegram web-client.</p>
+            <a class = "link-learn-more" href="https://web.telegram.org/#/login">Learn more</a>
+        </div>
+    </div>
+</html>

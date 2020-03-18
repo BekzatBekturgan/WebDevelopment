@@ -1,0 +1,19 @@
+<div class="container">
+  <h2 class="h2-style">{{product.name}}</h2>
+  <div class="container-slider">
+  <angular-image-slider
+    [autoRotate]="true"
+    [autoRotateAfter]="5000"
+    [autoRotateRight]="true"
+    [images]=product.images
+  ></angular-image-slider>
+  </div>
+  <div class="box">
+  <p>
+      Price: {{product.price}} <br>
+      Description: {{ product.description }} <br>
+      Rating: {{ product.rating }}
+  </p>
+  <button (click)="goBack()">Back</button>
+  </div>
+  </div>

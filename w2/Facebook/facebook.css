@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+header{
+    background-color: #3b5998;
+    min-height: 42px;
+    z-index: 1;
+    height: 82px;
+    width: 100%;
+    border-bottom: 1px solid #133783;
+    margin-bottom: 0;
+}
+.facebook-header{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+.facebook-h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 185px;
+    font-size: 40px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+.form-header{
+    float: right;
+    margin-right: 185px;
+}
+.inputs-header{
+    margin-top: 17px;
+}
+#fphone{
+    width: 145px;
+    margin-right: 10px;
+    border: 1px solid #133783;
+    padding: 2px;
+}
+#fpassword{
+    width: 145px;
+    margin-right: 10px;
+    border: 1px solid #133783;
+    padding: 2px;
+}
+.forget{
+    color: rgb(240, 235, 235);
+    font-size: 13px;
+}
+#log-in{
+    border: 1px solid #133783;
+    background-color: #3b5998;
+    color: #fff;
+}
+.header-label1{
+    display: block;
+    color: white;
+    font-size: 12px;
+}
+.header-label2{
+    position: absolute;
+    display: block;
+    top: 18px;
+    right: 333px;
+    color: white;
+    font-size: 12px;
+}
+main{
+    background-color: #ccc;
+    height: 550px;
+    position: relative;
+    margin-top: 0px;
+    color: rgb(28, 30, 33);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-main{
+    display: inline-block;
+}
+.p{
+    color: #0e385f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 185px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+}
+.back-left{
+    margin-left: 185px;
+}
+.right-main{
+    width: 400px;
+    max-width: 400px;
+    float: right;
+    margin-right: 185px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-h1{
+    color: rgb(28, 30, 33);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.right-p{
+    color: rgb(28, 30, 33);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.first-name, .second-name{
+    padding: 10px;
+    font-size: 18px;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.first-name{
+    float: left;
+    margin-right: 5px;
+}
+.second-name{
+    float: right;
+    margin-left: 5px;
+}
+.mobile, .password{
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 378px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    outline: none;
+}
+.Birthday, .Gender{
+    color: #90949c;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+#day, #month, #year{
+    padding: 4px;
+    margin-right: 0px;
+    background-color: white;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 1px;
+}
+.label{
+    color: rgb(28, 30, 33);
+    font-size: 18px;
+    margin-right: 10px;
+}
+.p2{
+    font-size: 11px;
+    width: 300px;
+    color: #90949c;
+}
+a{
+    text-decoration: none;
+}
+#sign-up{
+    padding: 5px;
+    width: 185px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #69a74e;
+    border: 1px solid #69a74e;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.end{
+    color: #90949c;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    background-color: white;
+}
+.first-ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 5px;
+}
+a{
+    color: rgb(56, 88, 152);    
+}
+.division{
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 1px;
+    background-color: #ccc;
+}
+.second-ul{
+    list-style-type: none;
+    text-align: center;
+}
+.the-end{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ccc;
+}

@@ -1,0 +1,10 @@
+<h2 class="h2-style">Welcome to products</h2>
+<div class="container">
+<ul class="products-style">
+  <li *ngFor="let product of products" class="box">
+    <a routerLink="/products/{{product.id}}">
+       {{product.name}}
+    </a>
+  </li>
+</ul>
+</div>

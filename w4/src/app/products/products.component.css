@@ -1,0 +1,38 @@
+@media only screen and (min-width: 530px) {
+    .products-style{
+        display: flex;
+        justify-content: space-between;
+        padding:0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     }
+    
+    .box{
+        flex-basis: 20%;
+        padding:10px;
+        list-style: none;
+        font-size: 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(6, 59, 128);
+        margin-bottom: 2%;
+    }
+    
+    .container{
+        padding: 0;
+        margin:5%;
+    }
+    
+    .products-style li a{
+        text-decoration: none;
+        color: cornsilk;
+    }
+    .h2-style{
+        text-align: center;
+    }
+    
+    ul{
+        padding: 0;
+    }

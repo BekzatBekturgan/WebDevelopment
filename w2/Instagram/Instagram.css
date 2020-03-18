@@ -1,0 +1,204 @@
+body{
+    background-color: #fafafa;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-side{
+    background-image: url(src/43cc71bb1b43.png);
+    height: 616px;
+    width: 454px;
+    justify-self: center;
+    position: relative;
+    top: 99px;
+    left: 149px;
+}
+.walpaper{
+    position: relative;
+    height: 433px;
+    width: 244px;
+    top: 97px;
+    left: 149px;
+}
+.right-side{
+    position: relative;
+    top: 34px;
+    left: 27px;
+    height: 756px;
+    width: 350px;
+    justify-content: center;
+}
+.first{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    background-image: url(src/b20f2a3cd7e4.png);
+    background-position: -98px 0;
+    height: 51px;
+    width: 175px;
+    margin: 22px auto 12px;
+}
+.welcome{
+    margin: 0 40px 10px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size:17px;
+    color: #999;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.facebook{
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin: 8px 40px;
+}
+.logo-facebook{
+    height: 16px;
+    width: 16px;
+    background-image: url(src/b20f2a3cd7e4.png);
+    background-position: -264px -319px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+.under-facebook{
+    margin: 10px 40px 18px;
+}
+.or{
+    color: #ccc;
+    margin: 0 18px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form{
+    margin: 0px 40px 6px;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding-top: 9px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    background-color: #fafafa;
+    margin-bottom: 6px;
+}
+input[type=submit]{
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin-top: 6px;
+    width: 100%;
+}
+.under-form{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin: 10px 60px;
+    line-height: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links-under-form{
+    text-decoration: none;
+    color: #999;
+    font-weight: 600;
+}
+.second{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.second-text{
+    margin: 25px 25px;
+}
+.link-blue{
+    text-decoration: none;
+    color: #3897f0;
+}
+.third{
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.picture{
+    height: 44px;
+    width: 136px;
+    margin-right: 8px;
+}
+.footer-start{
+    max-width: 100%;
+    list-style: none;
+}
+.item{
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 7px;
+    
+}
+.link{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.footer-end{
+    text-align: center;
+}
+/*
+input[type=text] {
+    margin:
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+*/
+input[type=text]:focus{
+    outline-color: grey;
+    outline-style: solid;
+}
+/*
+input[type=password]{
+    margin: 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+*/
+input[type=password]:focus{
+    outline-color: gray;
+    outline-style: solid;
+}
+/*
+#sign-up{
+    
+}
+
+*/

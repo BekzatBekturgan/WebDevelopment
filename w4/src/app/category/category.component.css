@@ -1,0 +1,37 @@
+@media only screen and (min-width: 530px) {
+    .categories-style{
+        display: flex;
+        justify-content: space-around;
+        padding:0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    }
+    
+    .categories-style li{
+        flex-basis: 20%;
+        padding:10px 0;
+        list-style: none;
+        font-size: 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(6, 59, 128);
+        margin:10px;
+        text-align: center;
+    }
+    
+    .container{
+        margin:30px;
+    }
+    
+    .categories-style li a{
+        text-decoration: none;
+        color: cornsilk;
+        padding: 15px 75px;
+    }
+    
+    ul{
+        padding: 0;
+    }
